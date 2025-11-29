@@ -1,0 +1,66 @@
+2025-08-23 13:39:37.681 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.7 with PID 28584 (D:\develop\Code\tlias-web-management-server\tlias-web-management\target\classes started by 麻效铭 in D:\develop\Code\tlias-web-management-server)
+2025-08-23 13:39:37.683 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-23 13:39:38.408 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-23 13:39:38.420 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-23 13:39:38.422 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-23 13:39:38.422 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-08-23 13:39:38.456 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-23 13:39:38.456 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 741 ms
+2025-08-23 13:39:38.980 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-23 13:39:38.994 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-23 13:39:38.998 [main] INFO  com.itheima.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.548 seconds (process running for 2.471)
+2025-08-23 13:40:16.866 [http-nio-8080-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-23 13:40:16.867 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-23 13:40:16.869 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-08-23 13:40:17.089 [http-nio-8080-exec-5] INFO  com.itheima.interceptor.TokenInterceptor-令牌校验失败，响应401
+2025-08-23 13:40:17.089 [http-nio-8080-exec-2] INFO  com.itheima.interceptor.TokenInterceptor-令牌校验失败，响应401
+2025-08-23 13:40:21.053 [http-nio-8080-exec-3] INFO  com.itheima.controller.LoginController-登录：Emp(id=null, username=xiaoming, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-08-23 13:40:21.138 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-23 13:40:22.228 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3eaf0be2
+2025-08-23 13:40:22.232 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-23 13:40:22.442 [http-nio-8080-exec-3] INFO  com.itheima.service.impl.EmpServiceImpl-登录成功，员工信息：Emp(id=75, username=xiaoming, password=null, name=小明, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-08-23 13:40:22.503 [http-nio-8080-exec-3] INFO  com.itheima.aop.LoginLogAspect2-记录登录日志：EmpLoginLog(id=null, username=xiaoming, password=123456, loginTime=2025-08-23T13:40:22.503643200, isSuccess=1, jwt=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NzUsInVzZXJuYW1lIjoieGlhb21pbmciLCJleHAiOjE3NTYwMjQ4MjJ9.G-boKmW4YSRXitqfYrt4Ozy7j8N5FHBHomuwlyX8rz4, costTime=1450)
+2025-08-23 13:40:24.891 [http-nio-8080-exec-6] INFO  com.itheima.interceptor.TokenInterceptor-当前登录员工ID：75，将其存入ThreadLocal
+2025-08-23 13:40:24.891 [http-nio-8080-exec-6] INFO  com.itheima.interceptor.TokenInterceptor-令牌合法，放行
+2025-08-23 13:40:24.891 [http-nio-8080-exec-4] INFO  com.itheima.interceptor.TokenInterceptor-当前登录员工ID：75，将其存入ThreadLocal
+2025-08-23 13:40:24.891 [http-nio-8080-exec-4] INFO  com.itheima.interceptor.TokenInterceptor-令牌合法，放行
+2025-08-23 13:40:24.893 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-查询全部员工
+2025-08-23 13:40:24.917 [http-nio-8080-exec-4] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-23 13:40:24.962 [http-nio-8080-exec-6] INFO  com.itheima.interceptor.TokenInterceptor-请求处理完成，清理ThreadLocal
+2025-08-23 13:40:25.194 [http-nio-8080-exec-4] INFO  com.itheima.interceptor.TokenInterceptor-请求处理完成，清理ThreadLocal
+2025-08-23 13:40:25.365 [http-nio-8080-exec-1] INFO  com.itheima.interceptor.TokenInterceptor-当前登录员工ID：75，将其存入ThreadLocal
+2025-08-23 13:40:25.366 [http-nio-8080-exec-7] INFO  com.itheima.interceptor.TokenInterceptor-当前登录员工ID：75，将其存入ThreadLocal
+2025-08-23 13:40:25.366 [http-nio-8080-exec-1] INFO  com.itheima.interceptor.TokenInterceptor-令牌合法，放行
+2025-08-23 13:40:25.366 [http-nio-8080-exec-7] INFO  com.itheima.interceptor.TokenInterceptor-令牌合法，放行
+2025-08-23 13:40:25.367 [http-nio-8080-exec-7] INFO  com.itheima.controller.ClazzController-查询所有班级
+2025-08-23 13:40:25.371 [http-nio-8080-exec-1] INFO  com.itheima.controller.StudentController-学员列表数据的条件分页查询:StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-08-23 13:40:25.381 [http-nio-8080-exec-7] INFO  com.itheima.interceptor.TokenInterceptor-请求处理完成，清理ThreadLocal
+2025-08-23 13:40:25.427 [http-nio-8080-exec-1] INFO  com.itheima.interceptor.TokenInterceptor-请求处理完成，清理ThreadLocal
+2025-08-23 13:40:26.047 [http-nio-8080-exec-8] INFO  com.itheima.interceptor.TokenInterceptor-当前登录员工ID：75，将其存入ThreadLocal
+2025-08-23 13:40:26.048 [http-nio-8080-exec-8] INFO  com.itheima.interceptor.TokenInterceptor-令牌合法，放行
+2025-08-23 13:40:26.048 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-23 13:40:26.067 [http-nio-8080-exec-8] INFO  com.itheima.interceptor.TokenInterceptor-请求处理完成，清理ThreadLocal
+2025-08-23 13:40:26.452 [http-nio-8080-exec-9] INFO  com.itheima.interceptor.TokenInterceptor-当前登录员工ID：75，将其存入ThreadLocal
+2025-08-23 13:40:26.453 [http-nio-8080-exec-9] INFO  com.itheima.interceptor.TokenInterceptor-令牌合法，放行
+2025-08-23 13:40:26.453 [http-nio-8080-exec-10] INFO  com.itheima.interceptor.TokenInterceptor-当前登录员工ID：75，将其存入ThreadLocal
+2025-08-23 13:40:26.453 [http-nio-8080-exec-10] INFO  com.itheima.interceptor.TokenInterceptor-令牌合法，放行
+2025-08-23 13:40:26.453 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-23 13:40:26.457 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-23 13:40:26.461 [http-nio-8080-exec-10] INFO  com.itheima.interceptor.TokenInterceptor-请求处理完成，清理ThreadLocal
+2025-08-23 13:40:26.488 [http-nio-8080-exec-9] INFO  com.itheima.interceptor.TokenInterceptor-请求处理完成，清理ThreadLocal
+2025-08-23 13:40:27.160 [http-nio-8080-exec-2] INFO  com.itheima.interceptor.TokenInterceptor-当前登录员工ID：75，将其存入ThreadLocal
+2025-08-23 13:40:27.160 [http-nio-8080-exec-5] INFO  com.itheima.interceptor.TokenInterceptor-当前登录员工ID：75，将其存入ThreadLocal
+2025-08-23 13:40:27.161 [http-nio-8080-exec-2] INFO  com.itheima.interceptor.TokenInterceptor-令牌合法，放行
+2025-08-23 13:40:27.161 [http-nio-8080-exec-5] INFO  com.itheima.interceptor.TokenInterceptor-令牌合法，放行
+2025-08-23 13:40:27.161 [http-nio-8080-exec-5] INFO  com.itheima.controller.ReportController-统计员工职位人数
+2025-08-23 13:40:27.161 [http-nio-8080-exec-2] INFO  com.itheima.controller.ReportController-统计员工性别人数
+2025-08-23 13:40:27.174 [http-nio-8080-exec-2] INFO  com.itheima.interceptor.TokenInterceptor-请求处理完成，清理ThreadLocal
+2025-08-23 13:40:27.178 [http-nio-8080-exec-5] INFO  com.itheima.interceptor.TokenInterceptor-请求处理完成，清理ThreadLocal
+2025-08-23 13:40:27.507 [http-nio-8080-exec-3] INFO  com.itheima.interceptor.TokenInterceptor-当前登录员工ID：75，将其存入ThreadLocal
+2025-08-23 13:40:27.507 [http-nio-8080-exec-3] INFO  com.itheima.interceptor.TokenInterceptor-令牌合法，放行
+2025-08-23 13:40:27.507 [http-nio-8080-exec-3] INFO  com.itheima.controller.ReportController-统计学员的学历信息
+2025-08-23 13:40:27.513 [http-nio-8080-exec-3] INFO  com.itheima.interceptor.TokenInterceptor-请求处理完成，清理ThreadLocal
+2025-08-23 13:40:27.518 [http-nio-8080-exec-6] INFO  com.itheima.interceptor.TokenInterceptor-当前登录员工ID：75，将其存入ThreadLocal
+2025-08-23 13:40:27.519 [http-nio-8080-exec-6] INFO  com.itheima.interceptor.TokenInterceptor-令牌合法，放行
+2025-08-23 13:40:27.519 [http-nio-8080-exec-6] INFO  com.itheima.controller.ReportController-统计每一个班级的人数
+2025-08-23 13:40:27.531 [http-nio-8080-exec-6] INFO  com.itheima.interceptor.TokenInterceptor-请求处理完成，清理ThreadLocal

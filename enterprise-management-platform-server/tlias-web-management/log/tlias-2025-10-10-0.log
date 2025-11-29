@@ -1,0 +1,31 @@
+2025-10-10 13:11:20.338 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.7 with PID 14616 (D:\develop\Code\tlias-app\tlias-web-management-server\tlias-web-management\target\classes started by 麻效铭 in D:\develop\Code\tlias-app\tlias-web-management-server)
+2025-10-10 13:11:20.340 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-10-10 13:11:21.412 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-10-10 13:11:21.423 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-10 13:11:21.425 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-10-10 13:11:21.425 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-10-10 13:11:21.484 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-10-10 13:11:21.484 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1106 ms
+2025-10-10 13:11:22.147 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-10-10 13:11:22.160 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-10-10 13:11:22.165 [main] INFO  com.itheima.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.106 seconds (process running for 3.282)
+2025-10-10 13:11:28.962 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-10 13:11:28.962 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-10-10 13:11:28.962 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-10-10 13:11:29.012 [http-nio-8080-exec-1] INFO  com.itheima.interceptor.TokenInterceptor-令牌校验失败，响应401
+2025-10-10 13:11:29.012 [http-nio-8080-exec-2] INFO  com.itheima.interceptor.TokenInterceptor-令牌校验失败，响应401
+2025-10-10 13:11:34.953 [http-nio-8080-exec-4] INFO  com.itheima.controller.LoginController-登录：Emp(id=null, username=admin, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-10-10 13:11:35.030 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-10-10 13:11:36.018 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a742254
+2025-10-10 13:11:36.023 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-10-10 13:11:36.216 [http-nio-8080-exec-4] INFO  com.itheima.aop.LoginLogAspect2-记录登录日志：EmpLoginLog(id=null, username=admin, password=123456, loginTime=2025-10-10T13:11:36.216682, isSuccess=0, jwt=null, costTime=1263)
+2025-10-10 13:11:44.840 [http-nio-8080-exec-5] INFO  com.itheima.controller.LoginController-登录：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-10-10 13:11:44.846 [http-nio-8080-exec-5] INFO  com.itheima.service.impl.EmpServiceImpl-登录成功，员工信息：Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-10-10 13:11:44.852 [http-nio-8080-exec-5] INFO  com.itheima.aop.LoginLogAspect2-记录登录日志：EmpLoginLog(id=null, username=songjiang, password=123456, loginTime=2025-10-10T13:11:44.852377600, isSuccess=1, jwt=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJleHAiOjE3NjAxNzAzMDR9.7vV39YYwuV7hDDsXlzv-HKFN3joYF4u4CwxmxLlIAFk, costTime=12)
+2025-10-10 13:12:14.042 [http-nio-8080-exec-3] INFO  com.itheima.controller.LoginController-登录：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-10-10 13:12:14.051 [http-nio-8080-exec-3] INFO  com.itheima.service.impl.EmpServiceImpl-登录成功，员工信息：Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-10-10 13:12:14.051 [http-nio-8080-exec-3] INFO  com.itheima.aop.LoginLogAspect2-记录登录日志：EmpLoginLog(id=null, username=songjiang, password=123456, loginTime=2025-10-10T13:12:14.051122, isSuccess=1, jwt=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJleHAiOjE3NjAxNzAzMzR9.e0Fhv06s2CErjk7NgLzL6nuAWWQdVE-bNAm7VYyKIzI, costTime=9)
+2025-10-10 13:20:08.511 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-10 13:20:08.543 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-10-10 13:20:08.549 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-10-10 13:20:08.575 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

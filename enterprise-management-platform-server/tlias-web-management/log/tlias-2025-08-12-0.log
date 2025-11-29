@@ -1,0 +1,684 @@
+2025-08-12 09:18:19.419 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.7 with PID 13392 (E:\Xiaoming\Java\JavaWeb\Code\web-ai-project02\tlias-web-management\target\classes started by 麻效铭 in E:\Xiaoming\Java\JavaWeb\Code\web-ai-project02)
+2025-08-12 09:18:19.421 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-12 09:18:20.606 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-12 09:18:20.620 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-12 09:18:20.621 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-12 09:18:20.622 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-08-12 09:18:20.682 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-12 09:18:20.682 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1223 ms
+2025-08-12 09:18:21.595 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-12 09:18:21.617 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-12 09:18:21.625 [main] INFO  com.itheima.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.54 seconds (process running for 3.79)
+2025-08-12 09:18:42.198 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-12 09:18:42.199 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-12 09:18:42.199 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-08-12 09:18:42.303 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 09:18:42.362 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-12 09:18:43.845 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b716f75
+2025-08-12 09:18:43.853 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-12 09:18:44.537 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 09:18:49.065 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 09:21:21.799 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-12 09:21:21.799 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-12 09:21:21.799 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-12 09:21:21.815 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-12 09:21:43.632 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.7 with PID 20836 (E:\Xiaoming\Java\JavaWeb\Code\web-ai-project02\tlias-web-management\target\classes started by 麻效铭 in E:\Xiaoming\Java\JavaWeb\Code\web-ai-project02)
+2025-08-12 09:21:43.634 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-12 09:21:44.593 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-12 09:21:44.604 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-12 09:21:44.606 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-12 09:21:44.606 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-08-12 09:21:44.646 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-12 09:21:44.646 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 980 ms
+2025-08-12 09:21:45.236 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-12 09:21:45.250 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-12 09:21:45.256 [main] INFO  com.itheima.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.904 seconds (process running for 2.777)
+2025-08-12 09:21:51.543 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-12 09:21:51.544 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-12 09:21:51.545 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-08-12 09:21:51.565 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 09:21:51.578 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-12 09:21:51.833 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f1f7f90
+2025-08-12 09:21:51.835 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-12 09:22:02.061 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 09:38:41.198 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 09:41:53.574 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 09:43:39.092 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 09:45:24.176 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 09:45:26.770 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 09:46:30.604 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-12 09:46:30.604 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-12 09:46:30.604 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-12 09:46:30.623 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-12 10:43:55.882 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.7 with PID 3488 (E:\Xiaoming\Java\JavaWeb\Code\web-ai-project02\tlias-web-management\target\classes started by 麻效铭 in E:\Xiaoming\Java\JavaWeb\Code\web-ai-project02)
+2025-08-12 10:43:55.883 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-12 10:43:56.781 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-12 10:43:56.789 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-12 10:43:56.790 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-12 10:43:56.792 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-08-12 10:43:56.825 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-12 10:43:56.826 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 916 ms
+2025-08-12 10:43:57.288 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.7 with PID 3020 (E:\Xiaoming\Java\JavaWeb\Code\web-ai-project02\tlias-web-management\target\classes started by 麻效铭 in E:\Xiaoming\Java\JavaWeb\Code\web-ai-project02)
+2025-08-12 10:43:57.289 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-12 10:43:57.390 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-12 10:43:57.402 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-12 10:43:57.406 [main] INFO  com.itheima.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.792 seconds (process running for 2.404)
+2025-08-12 10:43:58.025 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-12 10:43:58.036 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-12 10:43:58.037 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-12 10:43:58.037 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-08-12 10:43:58.072 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-12 10:43:58.073 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 751 ms
+2025-08-12 10:43:58.655 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-12 10:43:58.658 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-08-12 10:43:58.668 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-12 10:43:58.677 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-08-12 10:46:35.133 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-12 10:46:35.133 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-12 10:46:35.139 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 6 ms
+2025-08-12 10:46:35.230 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 10:46:35.290 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-12 10:46:36.513 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49aab9c1
+2025-08-12 10:46:36.515 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-12 10:46:43.758 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 10:46:45.799 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-根据ID查询部门：41
+2025-08-12 10:46:48.970 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-修改部门：Dept(id=41, name=研发1部, createTime=2025-08-11T17:16:44, updateTime=2025-08-11T17:16:44)
+2025-08-12 10:46:49.009 [http-nio-8080-exec-8] INFO  com.itheima.aop.OperationLogAspect-记录操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-08-12T10:46:49.003994400, className=com.itheima.controller.DeptController, methodName=update, methodParams=[Dept(id=41, name=研发1部, createTime=2025-08-11T17:16:44, updateTime=2025-08-12T10:46:48.971969200)], returnValue=Result(code=1, msg=success, data=null), costTime=33, operateEmpName=null)
+2025-08-12 10:46:49.053 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 10:46:49.871 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-根据ID查询部门：41
+2025-08-12 10:46:53.403 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-修改部门：Dept(id=41, name=研发一部, createTime=2025-08-11T17:16:44, updateTime=2025-08-12T10:46:49)
+2025-08-12 10:46:53.409 [http-nio-8080-exec-6] INFO  com.itheima.aop.OperationLogAspect-记录操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-08-12T10:46:53.409894300, className=com.itheima.controller.DeptController, methodName=update, methodParams=[Dept(id=41, name=研发一部, createTime=2025-08-11T17:16:44, updateTime=2025-08-12T10:46:53.403931500)], returnValue=Result(code=1, msg=success, data=null), costTime=6, operateEmpName=null)
+2025-08-12 10:46:53.429 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 10:46:56.397 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-根据ID删除部门：41
+2025-08-12 10:46:56.421 [http-nio-8080-exec-9] INFO  com.itheima.aop.OperationLogAspect-记录操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-08-12T10:46:56.421826, className=com.itheima.controller.DeptController, methodName=delete, methodParams=[41], returnValue=Result(code=1, msg=success, data=null), costTime=24, operateEmpName=null)
+2025-08-12 10:46:56.454 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 10:47:12.352 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-添加部门：Dept(id=null, name=11, createTime=null, updateTime=null)
+2025-08-12 10:47:12.359 [http-nio-8080-exec-1] INFO  com.itheima.aop.OperationLogAspect-记录操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-08-12T10:47:12.359489800, className=com.itheima.controller.DeptController, methodName=add, methodParams=[Dept(id=null, name=11, createTime=2025-08-12T10:47:12.352657800, updateTime=2025-08-12T10:47:12.352657800)], returnValue=Result(code=1, msg=success, data=null), costTime=7, operateEmpName=null)
+2025-08-12 10:47:12.376 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 10:47:15.721 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-根据ID删除部门：42
+2025-08-12 10:47:15.728 [http-nio-8080-exec-4] INFO  com.itheima.aop.OperationLogAspect-记录操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-08-12T10:47:15.728546, className=com.itheima.controller.DeptController, methodName=delete, methodParams=[42], returnValue=Result(code=1, msg=success, data=null), costTime=7, operateEmpName=null)
+2025-08-12 10:47:15.758 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 10:47:23.453 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-添加部门：Dept(id=null, name=研发一部, createTime=null, updateTime=null)
+2025-08-12 10:47:23.460 [http-nio-8080-exec-2] INFO  com.itheima.aop.OperationLogAspect-记录操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-08-12T10:47:23.460698100, className=com.itheima.controller.DeptController, methodName=add, methodParams=[Dept(id=null, name=研发一部, createTime=2025-08-12T10:47:23.454422800, updateTime=2025-08-12T10:47:23.454422800)], returnValue=Result(code=1, msg=success, data=null), costTime=7, operateEmpName=null)
+2025-08-12 10:47:23.479 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 10:47:24.732 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-根据ID查询部门：43
+2025-08-12 11:00:11.351 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 11:00:16.351 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 12:34:04.933 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m52s810ms913µs100ns).
+2025-08-12 13:39:39.554 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m4s324ms260µs200ns).
+2025-08-12 14:09:03.466 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 14:15:24.841 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 14:15:28.055 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 14:19:43.903 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:19:49.812 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:19:58.907 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=李, gender=null, begin=null, end=null)
+2025-08-12 14:20:00.197 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:20:05.667 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=李, gender=1, begin=null, end=null)
+2025-08-12 14:20:26.223 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=李, gender=1, begin=2020-01-01, end=2022-02-01)
+2025-08-12 14:20:27.235 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:20:56.922 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:21:54.241 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:21:57.295 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 14:21:57.833 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:21:58.411 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 14:21:58.861 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:21:59.277 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 14:21:59.554 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:21:59.830 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 14:22:00.069 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:22:00.504 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 14:22:01.207 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:22:02.285 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 14:22:04.418 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:22:56.974 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:23:00.358 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:23:36.418 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=2, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:23:36.921 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=3, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:23:37.392 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=4, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:23:38.448 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:23:40.433 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-08-12 14:23:42.470 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:38.892 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=2, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:39.224 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=3, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:39.516 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=4, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:40.818 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:43.754 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:44.512 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 14:24:44.974 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:50.029 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=2, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:50.187 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=3, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:50.346 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=4, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:51.304 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=3, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:52.663 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=2, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:52.828 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:54.468 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=3, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:57.619 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=3, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:59.011 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=4, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:59.182 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=5, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-08-12 14:24:59.326 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=6, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-08-12 14:25:00.008 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 14:25:00.333 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:34:06.000 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:34:08.140 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:37:18.392 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:38:07.899 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:38:39.510 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:39:50.388 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:40:17.888 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:40:22.318 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:40:25.776 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:41:19.621 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:50:26.924 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:51:54.928 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:53:13.551 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:53:21.436 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:55:24.411 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:56:01.926 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:57:01.771 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:58:24.567 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:58:48.647 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:58:48.653 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 14:59:10.925 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 14:59:10.925 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:02:17.836 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:02:22.825 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-添加部门：Dept(id=null, name=研发二部, createTime=null, updateTime=null)
+2025-08-12 15:02:22.830 [http-nio-8080-exec-2] INFO  com.itheima.aop.OperationLogAspect-记录操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-08-12T15:02:22.830896500, className=com.itheima.controller.DeptController, methodName=add, methodParams=[Dept(id=null, name=研发二部, createTime=2025-08-12T15:02:22.825566600, updateTime=2025-08-12T15:02:22.825566600)], returnValue=Result(code=1, msg=success, data=null), costTime=5, operateEmpName=null)
+2025-08-12 15:02:22.843 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:02:25.267 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:02:25.267 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:09:01.351 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:09:01.351 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:09:04.816 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:09:04.818 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:09:29.599 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:09:29.599 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:10:10.513 [http-nio-8080-exec-2] INFO  com.itheima.controller.UploadController-文件上传：花姑凉.jpg
+2025-08-12 15:10:12.361 [http-nio-8080-exec-2] INFO  com.itheima.controller.UploadController-文件上传OSS，url：https://java-ai-xiaoming.oss-cn-beijing.aliyuncs.com/2025/08/ad4750e4-c315-4cbb-aac7-f716aa779d91.jpg
+2025-08-12 15:13:58.052 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:13:58.056 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:14:26.262 [http-nio-8080-exec-6] INFO  com.itheima.controller.UploadController-文件上传：花姑凉.jpg
+2025-08-12 15:14:28.829 [http-nio-8080-exec-6] INFO  com.itheima.controller.UploadController-文件上传OSS，url：https://java-ai-xiaoming.oss-cn-beijing.aliyuncs.com/2025/08/9365e791-0862-42b7-a9eb-a9deaa5eac42.jpg
+2025-08-12 15:21:13.141 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=2025-08-06, end=2025-08-14)
+2025-08-12 15:23:36.810 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:23:36.812 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:24:29.596 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:24:29.606 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:25:12.347 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:25:12.347 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:25:54.960 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:25:54.960 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:30:42.914 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:30:42.916 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:37:27.935 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:37:27.936 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:38:06.121 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:38:06.122 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:41:37.305 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:41:37.321 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:41:41.574 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:41:41.574 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:43:33.969 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:43:33.969 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:44:29.272 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:44:29.273 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:47:23.047 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:47:23.047 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:48:29.989 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:48:29.989 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:49:18.939 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:49:18.943 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:50:59.895 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:50:59.895 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:51:52.004 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:51:52.004 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:51:58.899 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 15:51:58.899 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 15:53:37.661 [http-nio-8080-exec-2] INFO  com.itheima.controller.UploadController-文件上传：花姑凉.jpg
+2025-08-12 15:53:39.661 [http-nio-8080-exec-2] INFO  com.itheima.controller.UploadController-文件上传OSS，url：https://java-ai-xiaoming.oss-cn-beijing.aliyuncs.com/2025/08/d6a5b973-0414-456f-8c78-7a4e62058243.jpg
+2025-08-12 16:00:12.915 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:00:12.915 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:01:17.688 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:01:17.688 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:01:43.230 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:01:43.230 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:01:56.005 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:01:56.005 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:03:15.671 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:03:15.671 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:06:26.445 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:06:26.445 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:06:43.658 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:06:43.659 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:07:29.599 [http-nio-8080-exec-3] INFO  com.itheima.controller.UploadController-文件上传：花姑凉.jpg
+2025-08-12 16:07:31.442 [http-nio-8080-exec-3] INFO  com.itheima.controller.UploadController-文件上传OSS，url：https://java-ai-xiaoming.oss-cn-beijing.aliyuncs.com/2025/08/74aff40a-457c-45a0-adca-5ba2da78bd0c.jpg
+2025-08-12 16:07:50.173 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-新增员工：Emp(id=null, username=gaoyuanyuan, password=null, name=高圆圆, gender=2, phone=13509098765, job=1, salary=6000, image=https://java-ai-xiaoming.oss-cn-beijing.aliyuncs.com/2025/08/74aff40a-457c-45a0-adca-5ba2da78bd0c.jpg, entryDate=2025-08-12, deptId=5, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-08-01, end=2025-08-06, company=通信, job=客服), EmpExpr(id=null, empId=null, begin=2025-08-13, end=2025-08-14, company=自己, job=主管)])
+2025-08-12 16:07:50.203 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.itheima.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-08-12 16:07:50.209 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2020440089 wrapping com.mysql.cj.jdbc.ConnectionImpl@5f4637c7] for JDBC transaction
+2025-08-12 16:07:50.220 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2020440089 wrapping com.mysql.cj.jdbc.ConnectionImpl@5f4637c7] to manual commit
+2025-08-12 16:07:50.293 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.itheima.service.impl.EmpLogServiceImpl.insertLog]
+2025-08-12 16:07:50.293 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1229220516 wrapping com.mysql.cj.jdbc.ConnectionImpl@7461eb0e] for JDBC transaction
+2025-08-12 16:07:50.299 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1229220516 wrapping com.mysql.cj.jdbc.ConnectionImpl@7461eb0e] to manual commit
+2025-08-12 16:07:50.305 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-08-12 16:07:50.305 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1229220516 wrapping com.mysql.cj.jdbc.ConnectionImpl@7461eb0e]
+2025-08-12 16:07:50.311 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1229220516 wrapping com.mysql.cj.jdbc.ConnectionImpl@7461eb0e] after transaction
+2025-08-12 16:07:50.311 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2025-08-12 16:07:50.311 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-08-12 16:07:50.311 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@2020440089 wrapping com.mysql.cj.jdbc.ConnectionImpl@5f4637c7]
+2025-08-12 16:07:50.311 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2020440089 wrapping com.mysql.cj.jdbc.ConnectionImpl@5f4637c7] after transaction
+2025-08-12 16:07:50.311 [http-nio-8080-exec-6] INFO  com.itheima.aop.OperationLogAspect-记录操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-08-12T16:07:50.311670500, className=com.itheima.controller.EmpController, methodName=save, methodParams=[Emp(id=64, username=gaoyuanyuan, password=null, name=高圆圆, gender=2, phone=13509098765, job=1, salary=6000, image=https://java-ai-xiaoming.oss-cn-beijing.aliyuncs.com/2025/08/74aff40a-457c-45a0-adca-5ba2da78bd0c.jpg, entryDate=2025-08-12, deptId=5, createTime=2025-08-12T16:07:50.221743900, updateTime=2025-08-12T16:07:50.221743900, deptName=null, exprList=[EmpExpr(id=null, empId=64, begin=2025-08-01, end=2025-08-06, company=通信, job=客服), EmpExpr(id=null, empId=64, begin=2025-08-13, end=2025-08-14, company=自己, job=主管)])], returnValue=Result(code=1, msg=success, data=null), costTime=138, operateEmpName=null)
+2025-08-12 16:07:50.328 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:09:48.756 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:09:48.772 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:09:51.512 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:09:51.512 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:09:57.951 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:09:57.952 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:10:09.885 [http-nio-8080-exec-9] INFO  com.itheima.controller.UploadController-文件上传：花姑凉.jpg
+2025-08-12 16:10:11.759 [http-nio-8080-exec-9] INFO  com.itheima.controller.UploadController-文件上传OSS，url：https://java-ai-xiaoming.oss-cn-beijing.aliyuncs.com/2025/08/3bbc29b4-ce65-4889-ad8f-14ad8210953d.jpg
+2025-08-12 16:15:03.978 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:15:03.978 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:15:05.220 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:15:05.220 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:19:13.864 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:19:13.865 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:22:34.631 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-新增员工：Emp(id=null, username=, password=null, name=, gender=null, phone=, job=null, salary=null, image=, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-08-12 16:22:34.631 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.itheima.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-08-12 16:22:34.631 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@64255928 wrapping com.mysql.cj.jdbc.ConnectionImpl@7461eb0e] for JDBC transaction
+2025-08-12 16:22:34.631 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@64255928 wrapping com.mysql.cj.jdbc.ConnectionImpl@7461eb0e] to manual commit
+2025-08-12 16:22:36.169 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.itheima.service.impl.EmpLogServiceImpl.insertLog]
+2025-08-12 16:22:36.170 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1977211637 wrapping com.mysql.cj.jdbc.ConnectionImpl@5f4637c7] for JDBC transaction
+2025-08-12 16:22:36.170 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1977211637 wrapping com.mysql.cj.jdbc.ConnectionImpl@5f4637c7] to manual commit
+2025-08-12 16:22:36.174 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-08-12 16:22:36.175 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1977211637 wrapping com.mysql.cj.jdbc.ConnectionImpl@5f4637c7]
+2025-08-12 16:22:36.176 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1977211637 wrapping com.mysql.cj.jdbc.ConnectionImpl@5f4637c7] after transaction
+2025-08-12 16:22:36.176 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2025-08-12 16:22:36.176 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction rollback
+2025-08-12 16:22:36.177 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Rolling back JDBC transaction on Connection [HikariProxyConnection@64255928 wrapping com.mysql.cj.jdbc.ConnectionImpl@7461eb0e]
+2025-08-12 16:22:36.178 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@64255928 wrapping com.mysql.cj.jdbc.ConnectionImpl@7461eb0e] after transaction
+2025-08-12 16:22:36.187 [http-nio-8080-exec-8] ERROR com.itheima.exception.GlobalExceptionHandler-程序出错啦~
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+### The error may exist in com/itheima/mapper/EmpMapper.java (best guess)
+### The error may involve com.itheima.mapper.EmpMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time, update_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+; Column 'gender' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:97)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy68.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy84.insert(Unknown Source)
+	at com.itheima.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.itheima.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.itheima.controller.EmpController.save(EmpController.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.itheima.aop.OperationLogAspect.logOperation(OperationLogAspect.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.itheima.controller.EmpController$$SpringCGLIB$$0.save(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy98.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy96.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 83 common frames omitted
+2025-08-12 16:22:42.522 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:22:42.522 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:22:56.612 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:22:56.612 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:22:58.308 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:22:58.718 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:22:58.718 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:23:31.160 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:23:31.161 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:23:35.412 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-新增员工：Emp(id=null, username=, password=null, name=, gender=null, phone=, job=null, salary=null, image=, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-08-12 16:23:35.413 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.itheima.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-08-12 16:23:35.413 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@336908438 wrapping com.mysql.cj.jdbc.ConnectionImpl@7461eb0e] for JDBC transaction
+2025-08-12 16:23:35.413 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@336908438 wrapping com.mysql.cj.jdbc.ConnectionImpl@7461eb0e] to manual commit
+2025-08-12 16:23:35.416 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.itheima.service.impl.EmpLogServiceImpl.insertLog]
+2025-08-12 16:23:35.416 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@35185925 wrapping com.mysql.cj.jdbc.ConnectionImpl@5f4637c7] for JDBC transaction
+2025-08-12 16:23:35.416 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@35185925 wrapping com.mysql.cj.jdbc.ConnectionImpl@5f4637c7] to manual commit
+2025-08-12 16:23:35.421 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-08-12 16:23:35.421 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@35185925 wrapping com.mysql.cj.jdbc.ConnectionImpl@5f4637c7]
+2025-08-12 16:23:35.422 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@35185925 wrapping com.mysql.cj.jdbc.ConnectionImpl@5f4637c7] after transaction
+2025-08-12 16:23:35.422 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2025-08-12 16:23:35.422 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction rollback
+2025-08-12 16:23:35.422 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Rolling back JDBC transaction on Connection [HikariProxyConnection@336908438 wrapping com.mysql.cj.jdbc.ConnectionImpl@7461eb0e]
+2025-08-12 16:23:35.428 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@336908438 wrapping com.mysql.cj.jdbc.ConnectionImpl@7461eb0e] after transaction
+2025-08-12 16:23:35.434 [http-nio-8080-exec-8] ERROR com.itheima.exception.GlobalExceptionHandler-程序出错啦~
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+### The error may exist in com/itheima/mapper/EmpMapper.java (best guess)
+### The error may involve com.itheima.mapper.EmpMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time, update_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+; Column 'gender' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:97)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy68.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy84.insert(Unknown Source)
+	at com.itheima.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.itheima.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.itheima.controller.EmpController.save(EmpController.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.itheima.aop.OperationLogAspect.logOperation(OperationLogAspect.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.itheima.controller.EmpController$$SpringCGLIB$$0.save(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy98.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy96.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 83 common frames omitted
+2025-08-12 16:27:24.942 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:27:24.942 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:27:47.454 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:27:47.470 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:29:28.179 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:29:28.181 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:46:13.457 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:46:13.457 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:46:15.117 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m33s515ms419µs800ns).
+2025-08-12 16:47:40.820 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:47:40.820 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:48:11.083 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:48:11.088 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:48:14.573 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:48:14.573 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:51:51.109 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:51:51.109 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:52:14.071 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:52:14.072 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:52:41.625 [http-nio-8080-exec-8] INFO  com.itheima.controller.UploadController-文件上传：花姑凉.jpg
+2025-08-12 16:52:43.232 [http-nio-8080-exec-8] INFO  com.itheima.controller.UploadController-文件上传OSS，url：https://java-ai-xiaoming.oss-cn-beijing.aliyuncs.com/2025/08/3fae79fe-0a39-4336-b6bb-f8ab6cf0c047.jpg
+2025-08-12 16:53:11.587 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-新增员工：Emp(id=null, username=renyingying, password=null, name=任盈盈, gender=2, phone=13111111111, job=1, salary=123123, image=https://java-ai-xiaoming.oss-cn-beijing.aliyuncs.com/2025/08/3fae79fe-0a39-4336-b6bb-f8ab6cf0c047.jpg, entryDate=2025-07-09, deptId=3, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-08-12 16:53:11.587 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.itheima.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-08-12 16:53:11.587 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1827585133 wrapping com.mysql.cj.jdbc.ConnectionImpl@57bfc909] for JDBC transaction
+2025-08-12 16:53:11.587 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1827585133 wrapping com.mysql.cj.jdbc.ConnectionImpl@57bfc909] to manual commit
+2025-08-12 16:53:11.592 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.itheima.service.impl.EmpLogServiceImpl.insertLog]
+2025-08-12 16:53:11.592 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@802767827 wrapping com.mysql.cj.jdbc.ConnectionImpl@1adf6838] for JDBC transaction
+2025-08-12 16:53:11.593 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@802767827 wrapping com.mysql.cj.jdbc.ConnectionImpl@1adf6838] to manual commit
+2025-08-12 16:53:11.593 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-08-12 16:53:11.593 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@802767827 wrapping com.mysql.cj.jdbc.ConnectionImpl@1adf6838]
+2025-08-12 16:53:11.599 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@802767827 wrapping com.mysql.cj.jdbc.ConnectionImpl@1adf6838] after transaction
+2025-08-12 16:53:11.599 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2025-08-12 16:53:11.599 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-08-12 16:53:11.599 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1827585133 wrapping com.mysql.cj.jdbc.ConnectionImpl@57bfc909]
+2025-08-12 16:53:11.599 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1827585133 wrapping com.mysql.cj.jdbc.ConnectionImpl@57bfc909] after transaction
+2025-08-12 16:53:11.599 [http-nio-8080-exec-7] INFO  com.itheima.aop.OperationLogAspect-记录操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-08-12T16:53:11.599445600, className=com.itheima.controller.EmpController, methodName=save, methodParams=[Emp(id=65, username=renyingying, password=null, name=任盈盈, gender=2, phone=13111111111, job=1, salary=123123, image=https://java-ai-xiaoming.oss-cn-beijing.aliyuncs.com/2025/08/3fae79fe-0a39-4336-b6bb-f8ab6cf0c047.jpg, entryDate=2025-07-09, deptId=3, createTime=2025-08-12T16:53:11.587658100, updateTime=2025-08-12T16:53:11.587658100, deptName=null, exprList=[])], returnValue=Result(code=1, msg=success, data=null), costTime=12, operateEmpName=null)
+2025-08-12 16:53:11.614 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:54:33.763 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:54:33.763 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:59:01.532 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:59:01.845 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:59:01.846 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 16:59:05.368 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:59:06.423 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 16:59:06.424 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:07:15.187 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:07:15.187 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:15:30.441 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:15:30.928 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:15:30.928 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:17:42.671 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:17:43.193 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:17:43.193 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:17:46.797 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:17:46.797 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:17:55.425 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:17:55.425 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:25:23.032 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:25:23.770 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:25:23.770 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:27:10.650 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:27:10.650 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:27:37.521 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:27:38.356 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:27:38.356 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:27:39.409 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:28:55.098 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:28:55.099 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:28:56.895 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:28:57.429 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:28:57.429 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:28:57.746 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:28:58.337 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:28:58.337 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:28:58.634 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:35:00.670 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:35:00.671 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:35:02.174 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:35:02.823 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:35:02.827 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:42:39.842 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:44:28.828 [http-nio-8080-exec-10] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:44:31.641 [http-nio-8080-exec-1] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:44:37.664 [http-nio-8080-exec-3] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=2025-07-30, end=2025-08-08, page=1, pageSize=10)
+2025-08-12 17:45:18.529 [http-nio-8080-exec-8] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:45:21.407 [http-nio-8080-exec-6] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:45:23.647 [http-nio-8080-exec-7] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:45:24.402 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:45:25.144 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-08-12 17:45:25.144 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-08-12 17:45:26.079 [http-nio-8080-exec-9] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:46:02.494 [http-nio-8080-exec-10] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:49:36.000 [http-nio-8080-exec-1] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:52:51.979 [http-nio-8080-exec-3] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:53:17.101 [http-nio-8080-exec-8] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:53:19.924 [http-nio-8080-exec-6] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:53:21.559 [http-nio-8080-exec-7] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:53:30.353 [http-nio-8080-exec-5] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:53:32.198 [http-nio-8080-exec-4] INFO  com.itheima.controller.ClazzController-查询班级列表，ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-08-12 17:55:17.187 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-12 17:55:17.190 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-12 17:55:17.190 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-12 17:55:17.190 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
